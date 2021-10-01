@@ -1,17 +1,9 @@
 #!/bin/bash
-#Condicional CASE
+#Laço FOR
 
-echo Digite uma letra
-read letra
+#Primeira forma básica do for
 
-case $letra in
-	a)
-		echo A letra é A;;
-	b)
-		echo A letra é B;;
-	c)
-		echo A letra é C;;
-	*)
-		echo Mensagem Default;;
-esac
-
+for variavel in "A" "B" "C" "D"
+do
+	echo Variavel:$variavel
+done
