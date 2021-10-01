@@ -9,7 +9,7 @@ Repositório com códigos básicos em Script Script - Estudos Complementares da 
 - Lógica de programação
 
 ## Sobre o projeto
-Baseado na disciplina de Programação em Shell Script GRA0946 do curso superior de Redes de Computadores da <img src="./assets/uniritterIcon.jpg" width=15px>UNIRITTER Porto Alegre. RS.
+Baseado na disciplina de Programação em Shell Script GRA0946 do curso superior de Redes de Computadores da UNIRITTER Porto Alegre. RS. <img src="./assets/uniritterIcon.jpg" width=15px>
 O objetivo é aplicar os conhecimentos básicos e aprimorar o desenvolvimento de scrips shell, utilizado em diversas situações na administração de servidores linux.
 
 ## Autor
