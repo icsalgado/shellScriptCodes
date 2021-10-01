@@ -1,23 +1,9 @@
 #!/bin/bash
-#Laço FOR
+#Laço WHILE
 
-#Primeira forma básica do for
-echo Primeiro FOR
-for variavel in 1 2 3 4 5
+variavel=0
+while [ $variavel -lt 5 ]
 do
-	echo Variavel:$variavel
-done
-
-#Segunda forma básica do for parecida com C
-echo Segundo FOR
-for (( i = 1 ; i <= 5 ; i++ ))
-do
-	echo Variavel:$i
-done
-
-#Listando arquivos de uma pasta com for
-echo O que tem nessa pasta?
-for item in *
-do
-	echo $item
+	echo $variavel
+	let variavel=$variavel+1
 done
