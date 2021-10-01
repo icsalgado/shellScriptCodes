@@ -1,6 +1,15 @@
 #!/bin/bash
-#Condicional test
+#Condicional IF
 
-test 1=1; echo Primeira forma do test
+echo Digite um numero
+read numero
 
-[ 1 = 1 ]; echo Segunda forma do test
+if [ $numero -gt 10 ]
+then
+	echo O numero é maior que 10
+elif [ $numero -lt 5 ]
+then
+	echo O numero é menor que 5
+else
+	echo O numero está entre 5 e 10
+fi
