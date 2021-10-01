@@ -14,3 +14,10 @@ for (( i = 1 ; i <= 5 ; i++ ))
 do
 	echo Variavel:$i
 done
+
+#Listando arquivos de uma pasta com for
+echo O que tem nessa pasta?
+for item in *
+do
+	echo $item
+done
