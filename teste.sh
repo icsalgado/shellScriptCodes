@@ -3,7 +3,7 @@
 
 #Primeira forma básica do for
 
-for variavel in "A" "B" "C" "D"
+for variavel in 1 2 3 4 5
 do
 	echo Variavel:$variavel
 done
