@@ -1,9 +1,18 @@
 #!/bin/bash
-#Laço UNTIL
+#Funções
 
-variavel=0
-until [ $variavel -ge 5 ]
-do
-	echo $variavel
-	let variavel=$variavel+1
-done
+#primeira forma de declarar uma função
+minhaFuncao()
+{
+	echo Primeira implementação de função
+}
+
+#segunda forma de declarar uma função
+function novaFuncao 
+{
+	echo Segunda implementação de função
+}
+
+#chamada de funções
+minhaFuncao
+novaFuncao
