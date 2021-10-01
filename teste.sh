@@ -1,15 +1,17 @@
 #!/bin/bash
-#Condicional IF
+#Condicional CASE
 
-echo Digite um numero
-read numero
+echo Digite uma letra
+read letra
 
-if [ $numero -gt 10 ]
-then
-	echo O numero é maior que 10
-elif [ $numero -lt 5 ]
-then
-	echo O numero é menor que 5
-else
-	echo O numero está entre 5 e 10
-fi
+case $letra in
+	a)
+		echo A letra é A;;
+	b)
+		echo A letra é B;;
+	c)
+		echo A letra é C;;
+	*)
+		echo Mensagem Default;;
+esac
+
