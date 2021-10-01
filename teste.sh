@@ -1,8 +1,8 @@
 #!/bin/bash
-#Laço WHILE
+#Laço UNTIL
 
 variavel=0
-while [ $variavel -lt 5 ]
+until [ $variavel -ge 5 ]
 do
 	echo $variavel
 	let variavel=$variavel+1
