@@ -12,6 +12,8 @@ Repositório com códigos básicos em Shell Script - Estudos Complementares da f
 Baseado na disciplina de Programação em Shell Script GRA0946 do curso superior de Redes de Computadores da UNIRITTER Porto Alegre. RS. 
 O objetivo é aplicar os conhecimentos básicos e aprimorar o desenvolvimento de scrips, utilizados em diversas rotinas na administração de servidores linux.
 
+![mgsbox](https://user-images.githubusercontent.com/67175522/136823958-c9eb6ecf-59f0-4285-8c7c-a1687d105a30.gif)
+
 ## Autor
 <p>Iuri de Carvalho Salgado</p>
 
